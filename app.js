@@ -1,4 +1,3 @@
-// El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
 let amigos = [];
 
 // Función para agregar amigos
@@ -8,13 +7,21 @@ function agregarAmigo() {
 
     // Validar que el campo no esté vacío
     if (nombreAmigo === '') {
-        alert('Por favor, inserte el nombre de un amigo');
-    } else {
-        // Agregar el nombre al array
-        amigos.push(nombreAmigo);
-        // Actualizar la lista en la interfaz
-        actualizarListaAmigos(amigos);
+        alert('Por favor, inserte el nombre de un amigo.');
+        return;
     }
+
+    // Validar que el nombre no esté duplicado (ignorando mayúsculas/minúsculas)
+    if (amigos.some(amigo => amigo.toLowerCase() === nombreAmigo.toLowerCase())) {
+        alert('Este nombre ya ha sido ingresado.');
+        return;
+    }
+
+    // Agregar el nombre al array
+    amigos.push(nombreAmigo);
+    // Actualizar la lista en la interfaz
+    actualizarListaAmigos();
+    // Limpiar el campo de entrada
     limpiarCampo();
 }
 
@@ -24,28 +31,41 @@ function limpiarCampo() {
 }
 
 // Función para actualizar la lista de amigos en el HTML
-function actualizarListaAmigos(amigos) {
+function actualizarListaAmigos() {
     const lista = document.getElementById("listaAmigos");
     lista.innerHTML = ""; // Limpiar lista antes de agregar nuevos elementos
 
-   for (let i = 0; i <amigos.length; i++){
+    amigos.forEach((amigo) => {
+        const li = document.createElement('li');
+        li.textContent = amigo;
+        lista.appendChild(li);
+    });
+}
+
+function sortearAmigos() {
+    // 1. Comprobar si el array amigos no está vacío
+    if (amigos.length === 0) {
+        alert('No hay nombres en la lista para sortear. Agrega un nombre.');
+        return;
+    }
+
+    // 2. Generar un índice aleatorio
+    const indiceAleatorio = Math.floor(Math.random() * amigos.length);
+    // 3. Obtener el nombre sorteado
+    const amigoSorteado = amigos[indiceAleatorio];
+
+    // 4. Mostrar el amigo sorteado en el HTML
+    const resultado = document.getElementById('resultado');
+    resultado.innerHTML = ""; // Limpiar resultado anterior
     const li = document.createElement('li');
-    li.textContent = amigos[1];
-    lista.appendChild(li);
-   }
+    li.innerHTML = `<strong>🎉 Amigo Secreto: </strong> ${amigoSorteado}`;
+    resultado.appendChild(li);
 }
 
-//función para sortear los amigos
-function sortearAmigos(){
-// 1. comprobar si el array amigos no está vacio
-if (amigos.length === 0){
-    alert('No hay nombres en la lista para sortear,', 'agraga un nombre');
-    return;
-}
-// genera un índice aleatorio
-const indiceAleatorio = Math.floor(Math.random()*amigos.length)
-// obtenere el nombre sorteado
-const amigoSorteado = amigos[indiceAleatorio];
-//Mostrar el amigo sorteado en el HTML
-
+// Función para reiniciar el juego
+function reiniciarJuego() {
+    amigos = []; // Vaciar la lista de amigos
+    document.getElementById('listaAmigos').innerHTML = ''; // Limpiar la lista en el HTML
+    document.getElementById('resultado').innerHTML = ''; // Limpiar el resultado del sorteo
+    limpiarCampo(); // Asegurar que el campo de entrada quede vacío
 }

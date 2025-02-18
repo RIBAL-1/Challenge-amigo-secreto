@@ -24,13 +24,22 @@
                 <button class="button-add" onclick="agregarAmigo()">Añadir</button>
             </div>
            
-            <ul id="listaAmigos" class="name-list" aria-labelledby="listaAmigos" role="list"></ul>
+            <ul id="listaAmigos" class="name-list" aria-labelledby="section-title" role="list"></ul>
             <ul id="resultado" class="result-list" aria-live="polite"></ul>
 
             <div class="button-container">
-                <button class="button-draw" onclick="sortearAmigo()" aria-label="Sortear amigo secreto">
+                <button class="button-draw" onclick="sortearAmigos()" aria-label="Sortear amigo secreto">
                     <img src="assets/play_circle_outline.png" alt="Ícono para sortear">
                     Sortear amigo
+                
+                    <!-- Botón de reinicio -->
+                    <div class="button-container">
+                        <button class="button-draw" onclick="reiniciarJuego()" aria-label="Reiniciar juego">
+                            <img src="assets/restart_icon.png" alt="Ícono de reinicio">
+                            Reiniciar juego
+                        </button>
+                    </div>
+                    
                 </button>
             </div>
         </section>
