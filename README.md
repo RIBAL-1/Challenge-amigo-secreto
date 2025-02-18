@@ -58,6 +58,4 @@ Dominar estos conceptos es esencial para desarrollar soluciones computacionales,
 
 *[Personas-Desarrolladores del Proyecto](#personas-desarrolladores)
 
-## Autor del Proyecto
-
-- [Nicolas Abril](https://github.com/RIBAL-1) - Estudiante Alura Latam 
+Contribuciones: cualquiera que sean convenientes, todas las correcciones son bienvenidas
