@@ -28,7 +28,7 @@ Aquí puedes ver el tablero de trello con el avance del proyecto
 
 ✅**Sorteo aleatorio:** Al hacer clic en el botón "Sortear Amigo", se seleccionará aleatoriamente un nombre de la lista y se mostrará en la página.
 
-✔️**Agregar función reiniciar:** Los usuarios al hacer click en el botón "Reniciar", permitirá borrar la lista y empezar un nuevo juego.
+✔️**Agregar función reiniciar:** Los usuarios al hacer click en el botón "Reiniciar", permitirá borrar la lista y empezar un nuevo juego.
 
 ## 💻 Tecnologías Utilizadas
 
