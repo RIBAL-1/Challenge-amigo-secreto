@@ -65,7 +65,11 @@ function sortearAmigos() {
 // Función para reiniciar el juego
 function reiniciarJuego() {
     amigos = []; // Vaciar la lista de amigos
-    document.getElementById('listaAmigos').innerHTML = ''; // Limpiar la lista en el HTML
-    document.getElementById('resultado').innerHTML = ''; // Limpiar el resultado del sorteo
-    limpiarCampo(); // Asegurar que el campo de entrada quede vacío
+    document.getElementById('listaAmigos').innerHTML = ''; // Borra lista de amigos
+    document.getElementById('resultado').innerHTML = ''; // Borra el sorteo
+    limpiarCampo();
 }
+
+//para git bash git add .
+//git commit -m "Actualización del proyecto"
+//git push origin main
