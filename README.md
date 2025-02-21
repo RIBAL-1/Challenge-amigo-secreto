@@ -3,7 +3,7 @@
 <img width="960" alt="imagen-challenge" src="https://github.com/user-attachments/assets/d3d9ff9b-ce7a-443e-b33a-edd4fddee471" />
 
 <h4 align="center">
-Proyecto ~~Texto tachado~~ Finalizado 🔥
+Proyecto 🔥 Finalizado 🔥
 </h4>
 
 🎯Todos las contribuciones son bienvenidas, **_ayúdame a mejorar y seguir creciendo en mi proceso de aprendizaje_** ⛰️
