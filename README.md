@@ -55,4 +55,4 @@ Saber trabajar con listas (arrays) es sumamente importante. Los arrays permiten 
 - [Leonardo Jose Castillo](https://github.com/ljcl79) - **Instructor**
 - [Ellen Pimentel](https://github.com/Ellen-code) - **Instructor**
 
-Agradecimientos a todos ✝️
+Agradecimientos especiales ✝️
