@@ -6,7 +6,7 @@
 Proyecto 🔥 Finalizado 🔥
 </h4>
 
-🎯Todos las contribuciones son bienvenidas, **_ayúdame a mejorar y seguir creciendo en mi proceso de aprendizaje_** ⛰️
+🎯Todos las contribuciones son bienvenidas, **_ayúdame a mejorar y seguir creciendo en mi proceso de aprendizaje_**
 
 ## 🔎 Descripción del Proyecto
 
