@@ -3,7 +3,7 @@
 <img width="960" alt="imagen-challenge" src="https://github.com/user-attachments/assets/d3d9ff9b-ce7a-443e-b33a-edd4fddee471" />
 
 <h4 align="center">
-Proyecto ~~en_construcción~~ Finalizado 🔥
+Proyecto ~~construcción~~ Finalizado 🔥
 </h4>
 
 🎯Todos las contribuciones son bienvenidas, **ayúdame** a seguir creciendo y mejorando ⛰️
@@ -21,9 +21,13 @@ Aquí puedes ver el tablero de trello con el avance del proyecto
 ## Fucionalidades
 
 ✅**Agregar nombres:** Los usuarios escribirán el nombre de un amigo en un campo de texto y lo agregarán a una lista visible al hacer clic en "Adicionar".
+
 ✅**Validar entrada:** Si el campo de texto está vacío, el programa mostrará una alerta pidiendo un nombre válido.
+
 ✅**Visualizar la lista:** Los nombres ingresados aparecerán en una lista debajo del campo de entrada.
+
 ✅**Sorteo aleatorio:** Al hacer clic en el botón "Sortear Amigo", se seleccionará aleatoriamente un nombre de la lista y se mostrará en la página.
+
 ✔️**Agregar función reiniciar:** Los usuarios al hacer click en el botón "Reniciar", permitirá borrar la lista y empezar un nuevo juego.
 
 ## 💻 Tecnologías Utilizadas
@@ -31,9 +35,13 @@ Aquí puedes ver el tablero de trello con el avance del proyecto
 Este desafío está diseñado para que puedas aplicar de manera práctica los conocimientos adquiridos en los siguientes cursos:
 
 ⚡Lógica de programación: Sumérgete en la programación con **JavaScript**
+
 ⚡Lógica de programación: Explorar **funciones y listas**
+
 ⚡**ChatGPT**: Optimizando la calidad de los resultados
+
 ⚡Git y GitHub: Repositorio, commit y versiones
+
 ⚡HTML Y CSS: **Ambientes de desarrollo**, posicionamiento, header, publicación de proyectos.
 
 Saber trabajar con listas (arrays) es sumamente importante. Los arrays permiten adicionar o remover elementos, creando aplicaciones que procesan grandes cantidades de datos. Complementando eso, los lazos de repetición (loops), como o for, facilitan la ejecución repetida de acciones sobre una lista de elementos, tornando el proceso mas eficiente y menos susceptible a fallas.
