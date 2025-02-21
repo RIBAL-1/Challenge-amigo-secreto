@@ -3,10 +3,10 @@
 <img width="960" alt="imagen-challenge" src="https://github.com/user-attachments/assets/d3d9ff9b-ce7a-443e-b33a-edd4fddee471" />
 
 <h4 align="center">
-Proyecto ~~en construcción~~ Finalizado 🔥
+Proyecto ~~en_construcción~~ Finalizado 🔥
 </h4>
 
-🎯Todos las contribuciones son bienvenidas, **ayuduame** a seguir creciendo y mejorando ⛰️
+🎯Todos las contribuciones son bienvenidas, **ayúdame** a seguir creciendo y mejorando ⛰️
 
 ## 🔎 Descripción del Proyecto
 
